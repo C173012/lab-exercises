@@ -350,7 +350,7 @@ def move(exits, direction):
 # This is the entry point of our program
 def main():
     # Main game loop
-    while len(rooms['Reception']['items']) != 6:
+    while len(rooms['Admins']['items']) != 6:
         # Display game status (room description, inventory etc.)
         print_room(current_room)
         print_inventory_items(inventory)
